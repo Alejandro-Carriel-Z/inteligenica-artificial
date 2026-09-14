@@ -1,53 +1,22 @@
-# Inteligencia Artificial · PUCE
+﻿# Inteligencia Artificial — PUCE
 
 **Estudiante:** Alejandro Carriel  
-**Institución:** Pontificia Universidad Católica del Ecuador (PUCE)  
-**Asignatura:** Inteligencia Artificial  
-**Semestre:** 5.º  
+**Universidad:** Pontificia Universidad Católica del Ecuador (PUCE)  
+**Semestre:** 5.º · Ciberseguridad  
 
----
-
-## Sobre este repositorio
-
-Portafolio académico del curso **Inteligencia Artificial**. El material se organiza por semanas (prácticas, notebooks y reportes).
+Portafolio académico de la materia **Inteligencia Artificial**. El trabajo se organiza por semanas.
 
 ## Estructura
 
 | Carpeta | Contenido |
 |---------|-----------|
-| [`SEMANA 2/`](SEMANA%202/) | Clasificación inteligente de eventos de seguridad (IDS) con Machine Learning — CICIDS2017 |
-| `SEMANA 1/`, `SEMANA 3/` … | Otras semanas (se irán agregando) |
+| [`SEMANA 1 Y 2/`](./SEMANA%201%20Y%202/) | Clasificación IDS (CICIDS2017): notebook, datos, informe y resultados (Árbol, Random Forest, SVM) |
+| `SEMANA 3/` | Próximamente |
 
-### SEMANA 2 — Clasificación IDS (CICIDS2017)
+## Licencia y datos
 
-Pipeline de ML para clasificación binaria (benigno vs. ataque) sobre un subconjunto académico de **CICIDS2017**, con énfasis en métricas relevantes para IDS (precision, recall, F1, ROC-AUC y análisis de falsos negativos).
+Ver `LICENSE`. Dataset basado en CICIDS2017 (Canadian Institute for Cybersecurity) — uso académico.
 
-Incluye:
+## Contacto
 
-- `notebooks/` — notebook principal de clasificación
-- `data/` — CSV de entrenamiento y prueba
-- `results/` — salidas intermedias
-- `reports/` — informe de la semana
-- `src/` — código auxiliar
-- `requirements.txt` — dependencias Python
-
-## Cómo empezar (SEMANA 2)
-
-```bash
-cd "SEMANA 2"
-python -m venv .venv
-# Windows:
-.venv\Scripts\activate
-pip install -r requirements.txt
-jupyter notebook notebooks/01_clasificacion_ids_cicids2017.ipynb
-```
-
-Las rutas del notebook son relativas a `notebooks/` (`../data`, `../results`).
-
-## Nota ética
-
-Material destinado **exclusivamente a investigación educativa y defensiva** en detección de intrusiones. No debe usarse para actividades ofensivas, no autorizadas o maliciosas.
-
-## Licencia
-
-Véase [LICENSE](LICENSE). El dataset CICIDS2017 permanece sujeto a los términos de sus autores / CIC.
+GitHub: [socotroco811](https://github.com/socotroco811)
