@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local secrets / env
+.env
+.env.*
+
+# Build / caches
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Optional large dumps (assignment CSVs in data/ ARE tracked)
+*.parquet
+*.h5
+*.hdf5
+dumps/
+raw_full/
