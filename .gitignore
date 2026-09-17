@@ -42,3 +42,7 @@ desktop.ini
 *.hdf5
 dumps/
 raw_full/
+
+# Archives
+*.rar
+*.zip
